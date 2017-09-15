@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var viewLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
         print("Hello world.")
         print("Hello world.")
         print("Hello world.")
+        viewLabel.text = "I Can See You!"
     }
 
     override func didReceiveMemoryWarning() {
